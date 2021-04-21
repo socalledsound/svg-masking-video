@@ -1,0 +1,39 @@
+* {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+  padding: 0;
+  color: white;
+  background-color: black;
+}
+
+body {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+}
+
+canvas {
+  width: 100%;
+  height: auto;
+}
+
+img,
+svg {
+  width: 75vmin;
+  height: auto;
+}
+
+.text {
+  /* font: bold 120px sans-serif; */
+  font-size: 20rem;
+}
